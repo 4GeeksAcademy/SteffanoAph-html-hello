@@ -1,10 +1,8 @@
-*{
-    border: 1px;
-}
+
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background: black;
+    background: rgb(190, 190, 190);
     display: flex;
     margin: 0;
     content: center;
@@ -19,15 +17,16 @@ body {
     height: 600px; 
     background-color: white;
     border-radius: 15px;
+    margin-left: 10px;
     
 }
 
 .lilimg {
     border-radius: 50px;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin-top: 5px;
-    margin-left: 3px;
+    margin-left: 15px;
 }
 
 .user {
@@ -38,9 +37,11 @@ body {
 }
 
 .location {
-    font-size:small;
-    margin: -80px;
-    vertical-align: 5px;
+    font-size:smaller;
+    margin: -55px;
+   
+   
+    
 
 
 }
@@ -49,7 +50,7 @@ body {
     width: 25px;
     height: 25px;
     margin-left: 335px;
-    margin-top: 10px;
+    margin-bottom: 7px;
 }
 .post {
     width: 420px;
@@ -61,7 +62,7 @@ body {
 i.fa-regular.fa-comment,
 i.fa-paper-plane,
 i.fa-regular.fa-heart {
-    margin-left: 10px;
+    margin-left: 15px;
     scale: 1.4;
     margin-top: 5px;
     
@@ -76,7 +77,7 @@ i.fa-regular.fa-bookmark {
 p{
     font-size: small;
     margin-top: 5px;
-    margin-left: 3px;
+    margin-left: 10px;
 }
 
    
